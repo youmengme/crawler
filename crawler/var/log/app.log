@@ -1,0 +1,709 @@
+[2018-09-21T23:46:28.802] [INFO] default - service 注入...
+[2018-09-21T23:46:28.812] [DEBUG] default - import: /app/service/api.js
+[2018-09-21T23:46:28.949] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-21T23:46:29.003] [DEBUG] default - import: /app/service/oss.js
+[2018-09-21T23:46:29.103] [DEBUG] default - import: /app/service/time.js
+[2018-09-21T23:46:29.104] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-21T23:46:29.104] [INFO] default - service 注入完成
+[2018-09-21T23:46:29.104] [INFO] default - controller 注入...
+[2018-09-21T23:46:29.105] [DEBUG] default - import: /app/controller/common.js
+[2018-09-21T23:46:29.106] [DEBUG] default - import: /app/controller/material.js
+[2018-09-21T23:46:29.394] [DEBUG] default - import: /app/controller/site.js
+[2018-09-21T23:46:29.396] [INFO] default - controller 注入完成
+[2018-09-21T23:49:08.065] [INFO] default - service 注入...
+[2018-09-21T23:49:08.075] [DEBUG] default - import: /app/service/api.js
+[2018-09-21T23:49:08.197] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-21T23:49:08.249] [DEBUG] default - import: /app/service/oss.js
+[2018-09-21T23:49:08.357] [DEBUG] default - import: /app/service/time.js
+[2018-09-21T23:49:08.358] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-21T23:49:08.359] [INFO] default - service 注入完成
+[2018-09-21T23:49:08.359] [INFO] default - controller 注入...
+[2018-09-21T23:49:08.360] [DEBUG] default - import: /app/controller/common.js
+[2018-09-21T23:49:08.361] [DEBUG] default - import: /app/controller/material.js
+[2018-09-21T23:49:08.646] [DEBUG] default - import: /app/controller/site.js
+[2018-09-21T23:49:08.647] [INFO] default - controller 注入完成
+[2018-09-21T23:49:08.914] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-21T23:49:08.918] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-21T23:49:08.920] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-21T23:49:08.922] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-21T23:49:08.925] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-21T23:49:08.927] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-21T23:49:08.929] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-21T23:49:08.932] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-21T23:49:08.934] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-21T23:49:08.936] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-21T23:49:08.938] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-21T23:50:18.606] [INFO] default - service 注入...
+[2018-09-21T23:50:18.615] [DEBUG] default - import: /app/service/api.js
+[2018-09-21T23:50:18.738] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-21T23:50:18.788] [DEBUG] default - import: /app/service/oss.js
+[2018-09-21T23:50:18.886] [DEBUG] default - import: /app/service/time.js
+[2018-09-21T23:50:18.887] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-21T23:50:18.887] [INFO] default - service 注入完成
+[2018-09-21T23:50:18.887] [INFO] default - controller 注入...
+[2018-09-21T23:50:18.888] [DEBUG] default - import: /app/controller/common.js
+[2018-09-21T23:50:18.889] [DEBUG] default - import: /app/controller/material.js
+[2018-09-21T23:50:19.184] [DEBUG] default - import: /app/controller/site.js
+[2018-09-21T23:50:19.185] [INFO] default - controller 注入完成
+[2018-09-21T23:50:19.446] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-21T23:50:19.449] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-21T23:50:19.452] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-21T23:50:19.454] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-21T23:50:19.457] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-21T23:50:19.460] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-21T23:50:19.462] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-21T23:50:19.465] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-21T23:50:19.467] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-21T23:50:19.470] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-21T23:50:19.473] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-21T23:50:19.473] [DEBUG] default - 所有账号加载完毕
+[2018-09-21T23:50:19.606] [INFO] default - 启动站点 "699pic"
+[2018-09-21T23:50:19.609] [INFO] default - 启动站点 "588ku"
+[2018-09-21T23:50:19.610] [INFO] default - 启动站点 "ibaotu"
+[2018-09-21T23:50:19.611] [INFO] default - 启动站点 "nipic"
+[2018-09-21T23:50:19.612] [INFO] default - 启动站点 "58pic"
+[2018-09-21T23:50:19.613] [WARN] default - 找不到站点 "90sheji"
+[2018-09-21T23:50:19.613] [WARN] default - 找不到站点 "ooopic"
+[2018-09-21T23:50:19.613] [WARN] default - 找不到站点 "88tph"
+[2018-09-21T23:50:19.613] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-21T23:50:19.613] [WARN] default - 找不到站点 "16pic"
+[2018-09-21T23:50:19.614] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-21T23:50:19.615] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:19.616] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:19.616] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:19.617] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:19.617] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:29.401] [INFO] default - service 注入...
+[2018-09-21T23:50:29.410] [DEBUG] default - import: /app/service/api.js
+[2018-09-21T23:50:29.527] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-21T23:50:29.575] [DEBUG] default - import: /app/service/oss.js
+[2018-09-21T23:50:29.674] [DEBUG] default - import: /app/service/time.js
+[2018-09-21T23:50:29.674] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-21T23:50:29.675] [INFO] default - service 注入完成
+[2018-09-21T23:50:29.675] [INFO] default - controller 注入...
+[2018-09-21T23:50:29.676] [DEBUG] default - import: /app/controller/common.js
+[2018-09-21T23:50:29.677] [DEBUG] default - import: /app/controller/material.js
+[2018-09-21T23:50:29.953] [DEBUG] default - import: /app/controller/site.js
+[2018-09-21T23:50:29.954] [INFO] default - controller 注入完成
+[2018-09-21T23:50:30.203] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-21T23:50:30.207] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-21T23:50:30.209] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-21T23:50:30.212] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-21T23:50:30.214] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-21T23:50:30.217] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-21T23:50:30.219] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-21T23:50:30.222] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-21T23:50:30.224] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-21T23:50:30.227] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-21T23:50:30.229] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-21T23:50:30.230] [DEBUG] default - 所有账号加载完毕
+[2018-09-21T23:50:30.277] [INFO] default - 启动站点 "699pic"
+[2018-09-21T23:50:30.279] [INFO] default - 启动站点 "588ku"
+[2018-09-21T23:50:30.280] [INFO] default - 启动站点 "ibaotu"
+[2018-09-21T23:50:30.281] [INFO] default - 启动站点 "nipic"
+[2018-09-21T23:50:30.282] [INFO] default - 启动站点 "58pic"
+[2018-09-21T23:50:30.283] [WARN] default - 找不到站点 "90sheji"
+[2018-09-21T23:50:30.283] [WARN] default - 找不到站点 "ooopic"
+[2018-09-21T23:50:30.283] [WARN] default - 找不到站点 "88tph"
+[2018-09-21T23:50:30.283] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-21T23:50:30.283] [WARN] default - 找不到站点 "16pic"
+[2018-09-21T23:50:30.284] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-21T23:50:30.288] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:30.289] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:30.290] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:30.290] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:30.290] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-21T23:50:37.755] [INFO] default - service 注入...
+[2018-09-21T23:50:37.764] [DEBUG] default - import: /app/service/api.js
+[2018-09-21T23:50:37.882] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-21T23:50:37.931] [DEBUG] default - import: /app/service/oss.js
+[2018-09-21T23:50:38.030] [DEBUG] default - import: /app/service/time.js
+[2018-09-21T23:50:38.031] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-21T23:50:38.032] [INFO] default - service 注入完成
+[2018-09-21T23:50:38.032] [INFO] default - controller 注入...
+[2018-09-21T23:50:38.033] [DEBUG] default - import: /app/controller/common.js
+[2018-09-21T23:50:38.033] [DEBUG] default - import: /app/controller/material.js
+[2018-09-21T23:50:38.315] [DEBUG] default - import: /app/controller/site.js
+[2018-09-21T23:50:38.316] [INFO] default - controller 注入完成
+[2018-09-21T23:50:38.535] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-21T23:50:38.538] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-21T23:50:38.541] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-21T23:50:38.543] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-21T23:50:38.546] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-21T23:50:38.548] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-21T23:50:38.551] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-21T23:50:38.553] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-21T23:50:38.556] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-21T23:50:38.558] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-21T23:50:38.561] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-21T23:50:38.561] [DEBUG] default - 所有账号加载完毕
+[2018-09-21T23:50:38.563] [INFO] default - listen 0.0.0.0:12333
+[2018-09-21T23:50:38.563] [INFO] default - started successfully
+[2018-09-22T00:04:20.773] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T00:04:25.537] [DEBUG] default - taskId = 87
+[2018-09-22T00:04:25.547] [DEBUG] default - 当前任务 "87" 的状态为 "wait"
+[2018-09-22T00:04:25.548] [ERROR] default - 任务 "87" 没有绑定账号
+[2018-09-22T00:04:25.549] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:23.850] [INFO] default - service 注入...
+[2018-09-22T00:38:23.860] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T00:38:23.984] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T00:38:24.034] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T00:38:24.142] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T00:38:24.142] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T00:38:24.143] [INFO] default - service 注入完成
+[2018-09-22T00:38:24.143] [INFO] default - controller 注入...
+[2018-09-22T00:38:24.144] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T00:38:24.145] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T00:38:24.438] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T00:38:24.439] [INFO] default - controller 注入完成
+[2018-09-22T00:38:23.867] [INFO] default - service 注入...
+[2018-09-22T00:38:23.876] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T00:38:23.995] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T00:38:24.044] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T00:38:24.142] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T00:38:24.143] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T00:38:24.144] [INFO] default - service 注入完成
+[2018-09-22T00:38:24.144] [INFO] default - controller 注入...
+[2018-09-22T00:38:24.145] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T00:38:24.145] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T00:38:24.433] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T00:38:24.434] [INFO] default - controller 注入完成
+[2018-09-22T00:38:24.679] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T00:38:24.683] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T00:38:24.685] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T00:38:24.688] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T00:38:24.690] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T00:38:24.690] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T00:38:24.693] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T00:38:24.693] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T00:38:24.695] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T00:38:24.696] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T00:38:24.698] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T00:38:24.698] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T00:38:24.700] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T00:38:24.701] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T00:38:24.703] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T00:38:24.704] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T00:38:24.705] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T00:38:24.706] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T00:38:24.706] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T00:38:24.707] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T00:38:24.707] [INFO] default - started successfully
+[2018-09-22T00:38:24.709] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T00:38:24.712] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T00:38:24.714] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T00:38:24.718] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T00:38:24.718] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T00:38:24.771] [INFO] default - 启动站点 "699pic"
+[2018-09-22T00:38:24.774] [INFO] default - 启动站点 "588ku"
+[2018-09-22T00:38:24.775] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T00:38:24.776] [INFO] default - 启动站点 "nipic"
+[2018-09-22T00:38:24.777] [INFO] default - 启动站点 "58pic"
+[2018-09-22T00:38:24.777] [WARN] default - 找不到站点 "90sheji"
+[2018-09-22T00:38:24.777] [WARN] default - 找不到站点 "ooopic"
+[2018-09-22T00:38:24.777] [WARN] default - 找不到站点 "88tph"
+[2018-09-22T00:38:24.778] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T00:38:24.778] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T00:38:24.778] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T00:38:24.781] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:24.782] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:24.782] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:24.783] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:24.783] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:56.998] [INFO] default - service 注入...
+[2018-09-22T00:38:57.007] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T00:38:57.127] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T00:38:57.176] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T00:38:57.269] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T00:38:57.270] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T00:38:57.271] [INFO] default - service 注入完成
+[2018-09-22T00:38:57.271] [INFO] default - controller 注入...
+[2018-09-22T00:38:57.272] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T00:38:57.272] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T00:38:57.557] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T00:38:57.558] [INFO] default - controller 注入完成
+[2018-09-22T00:38:56.994] [INFO] default - service 注入...
+[2018-09-22T00:38:57.003] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T00:38:57.124] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T00:38:57.174] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T00:38:57.276] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T00:38:57.276] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T00:38:57.277] [INFO] default - service 注入完成
+[2018-09-22T00:38:57.277] [INFO] default - controller 注入...
+[2018-09-22T00:38:57.278] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T00:38:57.279] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T00:38:57.565] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T00:38:57.566] [INFO] default - controller 注入完成
+[2018-09-22T00:38:57.793] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T00:38:57.796] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T00:38:57.799] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T00:38:57.801] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T00:38:57.804] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T00:38:57.807] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T00:38:57.811] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T00:38:57.814] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T00:38:57.816] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T00:38:57.819] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T00:38:57.821] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T00:38:57.822] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T00:38:57.823] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T00:38:57.823] [INFO] default - started successfully
+[2018-09-22T00:38:57.836] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T00:38:57.839] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T00:38:57.842] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T00:38:57.844] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T00:38:57.847] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T00:38:57.850] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T00:38:57.852] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T00:38:57.855] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T00:38:57.857] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T00:38:57.860] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T00:38:57.865] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T00:38:57.865] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T00:38:57.914] [INFO] default - 启动站点 "699pic"
+[2018-09-22T00:38:57.917] [INFO] default - 启动站点 "588ku"
+[2018-09-22T00:38:57.918] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T00:38:57.919] [INFO] default - 启动站点 "nipic"
+[2018-09-22T00:38:57.920] [INFO] default - 启动站点 "58pic"
+[2018-09-22T00:38:57.921] [INFO] default - 启动站点 "90sheji"
+[2018-09-22T00:38:57.921] [WARN] default - 找不到站点 "ooopic"
+[2018-09-22T00:38:57.921] [WARN] default - 找不到站点 "88tph"
+[2018-09-22T00:38:57.921] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T00:38:57.922] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T00:38:57.922] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T00:38:57.923] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:57.924] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:57.924] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:57.925] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:57.925] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T00:38:57.925] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.012] [INFO] default - service 注入...
+[2018-09-22T07:52:53.000] [INFO] default - service 注入...
+[2018-09-22T07:52:53.021] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:52:53.148] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:52:53.197] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:52:53.300] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:52:53.301] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:52:53.301] [INFO] default - service 注入完成
+[2018-09-22T07:52:53.301] [INFO] default - controller 注入...
+[2018-09-22T07:52:53.302] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:52:53.303] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:52:53.585] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:52:53.586] [INFO] default - controller 注入完成
+[2018-09-22T07:52:53.009] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:52:53.128] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:52:53.177] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:52:53.278] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:52:53.279] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:52:53.280] [INFO] default - service 注入完成
+[2018-09-22T07:52:53.280] [INFO] default - controller 注入...
+[2018-09-22T07:52:53.282] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:52:53.282] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:52:53.564] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:52:53.565] [INFO] default - controller 注入完成
+[2018-09-22T07:52:53.815] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:52:53.818] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:52:53.818] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:52:53.821] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:52:53.822] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:52:53.823] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:52:53.825] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:52:53.826] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:52:53.828] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:52:53.828] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:52:53.830] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:52:53.831] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:52:53.833] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:52:53.833] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:52:53.835] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:52:53.836] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:52:53.837] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:52:53.838] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:52:53.840] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:52:53.840] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:52:53.841] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:52:53.843] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:52:53.842] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T07:52:53.843] [INFO] default - started successfully
+[2018-09-22T07:52:53.846] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:52:53.847] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:52:53.895] [INFO] default - 启动站点 "699pic"
+[2018-09-22T07:52:53.898] [INFO] default - 启动站点 "588ku"
+[2018-09-22T07:52:53.899] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T07:52:53.900] [INFO] default - 启动站点 "nipic"
+[2018-09-22T07:52:53.901] [INFO] default - 启动站点 "58pic"
+[2018-09-22T07:52:53.901] [INFO] default - 启动站点 "90sheji"
+[2018-09-22T07:52:53.902] [INFO] default - 启动站点 "ooopic"
+[2018-09-22T07:52:53.903] [WARN] default - 找不到站点 "88tph"
+[2018-09-22T07:52:53.903] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T07:52:53.903] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T07:52:53.903] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T07:52:53.907] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.908] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.908] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.909] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.909] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.909] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:52:53.909] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:20.640] [INFO] default - service 注入...
+[2018-09-22T07:53:20.650] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:53:20.772] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:53:20.825] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:53:20.923] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:53:20.924] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:53:20.925] [INFO] default - service 注入完成
+[2018-09-22T07:53:20.925] [INFO] default - controller 注入...
+[2018-09-22T07:53:20.926] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:53:20.926] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:53:21.211] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:53:21.212] [INFO] default - controller 注入完成
+[2018-09-22T07:53:21.429] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:53:21.433] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:53:21.435] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:53:21.438] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:53:21.441] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:53:21.444] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:53:21.446] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:53:21.449] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:53:21.451] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:53:21.454] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:53:21.456] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:53:21.456] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:53:21.458] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T07:53:21.458] [INFO] default - started successfully
+[2018-09-22T07:53:31.285] [INFO] default - service 注入...
+[2018-09-22T07:53:31.294] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:53:31.416] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:53:31.468] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:53:31.562] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:53:31.563] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:53:31.563] [INFO] default - service 注入完成
+[2018-09-22T07:53:31.564] [INFO] default - controller 注入...
+[2018-09-22T07:53:31.564] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:53:31.565] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:53:31.868] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:53:31.869] [INFO] default - controller 注入完成
+[2018-09-22T07:53:32.118] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:53:32.121] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:53:32.124] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:53:32.126] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:53:32.129] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:53:32.132] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:53:32.134] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:53:32.137] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:53:32.139] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:53:32.142] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:53:32.144] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:53:32.145] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:53:32.195] [INFO] default - 启动站点 "699pic"
+[2018-09-22T07:53:32.198] [INFO] default - 启动站点 "588ku"
+[2018-09-22T07:53:32.199] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T07:53:32.200] [INFO] default - 启动站点 "nipic"
+[2018-09-22T07:53:32.201] [INFO] default - 启动站点 "58pic"
+[2018-09-22T07:53:32.202] [INFO] default - 启动站点 "90sheji"
+[2018-09-22T07:53:32.203] [INFO] default - 启动站点 "ooopic"
+[2018-09-22T07:53:32.203] [WARN] default - 找不到站点 "88tph"
+[2018-09-22T07:53:32.204] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T07:53:32.204] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T07:53:32.204] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T07:53:32.206] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:32.206] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:32.207] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:32.207] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:32.207] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:32.207] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:32.207] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:49.975] [INFO] default - service 注入...
+[2018-09-22T07:53:49.983] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:53:50.100] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:53:50.149] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:53:50.248] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:53:50.248] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:53:50.249] [INFO] default - service 注入完成
+[2018-09-22T07:53:50.249] [INFO] default - controller 注入...
+[2018-09-22T07:53:50.250] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:53:50.251] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:53:50.525] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:53:50.527] [INFO] default - controller 注入完成
+[2018-09-22T07:53:49.986] [INFO] default - service 注入...
+[2018-09-22T07:53:49.994] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:53:50.113] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:53:50.159] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:53:50.260] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:53:50.260] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:53:50.261] [INFO] default - service 注入完成
+[2018-09-22T07:53:50.261] [INFO] default - controller 注入...
+[2018-09-22T07:53:50.262] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:53:50.262] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:53:50.553] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:53:50.554] [INFO] default - controller 注入完成
+[2018-09-22T07:53:50.779] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:53:50.783] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:53:50.785] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:53:50.788] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:53:50.790] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:53:50.793] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:53:50.793] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:53:50.795] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:53:50.796] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:53:50.798] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:53:50.799] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:53:50.800] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:53:50.801] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:53:50.803] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:53:50.804] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:53:50.805] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:53:50.805] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:53:50.807] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:53:50.809] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:53:50.811] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:53:50.814] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:53:50.816] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:53:50.819] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:53:50.819] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:53:50.821] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T07:53:50.821] [INFO] default - started successfully
+[2018-09-22T07:53:50.853] [INFO] default - 启动站点 "699pic"
+[2018-09-22T07:53:50.855] [INFO] default - 启动站点 "588ku"
+[2018-09-22T07:53:50.856] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T07:53:50.857] [INFO] default - 启动站点 "nipic"
+[2018-09-22T07:53:50.858] [INFO] default - 启动站点 "58pic"
+[2018-09-22T07:53:50.859] [INFO] default - 启动站点 "90sheji"
+[2018-09-22T07:53:50.860] [INFO] default - 启动站点 "ooopic"
+[2018-09-22T07:53:50.860] [WARN] default - 找不到站点 "88tph"
+[2018-09-22T07:53:50.860] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T07:53:50.861] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T07:53:50.861] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T07:53:50.865] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:50.866] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:50.866] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:50.866] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:50.866] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:50.867] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:50.867] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:57.503] [INFO] default - service 注入...
+[2018-09-22T07:53:57.511] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:53:57.629] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:53:57.677] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:53:57.769] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:53:57.770] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:53:57.770] [INFO] default - service 注入完成
+[2018-09-22T07:53:57.771] [INFO] default - controller 注入...
+[2018-09-22T07:53:57.774] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:53:57.775] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:53:58.042] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:53:58.043] [INFO] default - controller 注入完成
+[2018-09-22T07:53:57.507] [INFO] default - service 注入...
+[2018-09-22T07:53:57.516] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T07:53:57.635] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T07:53:57.682] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T07:53:57.782] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T07:53:57.783] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T07:53:57.784] [INFO] default - service 注入完成
+[2018-09-22T07:53:57.784] [INFO] default - controller 注入...
+[2018-09-22T07:53:57.785] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T07:53:57.785] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T07:53:58.072] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T07:53:58.073] [INFO] default - controller 注入完成
+[2018-09-22T07:53:58.286] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:53:58.290] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:53:58.293] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:53:58.295] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:53:58.297] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:53:58.300] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:53:58.302] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:53:58.305] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:53:58.307] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:53:58.310] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:53:58.313] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:53:58.316] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:53:58.337] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T07:53:58.341] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T07:53:58.344] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T07:53:58.347] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T07:53:58.349] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T07:53:58.352] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T07:53:58.355] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T07:53:58.358] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T07:53:58.360] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T07:53:58.363] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T07:53:58.365] [INFO] default - 启动站点 "699pic"
+[2018-09-22T07:53:58.366] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T07:53:58.366] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T07:53:58.368] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T07:53:58.368] [INFO] default - started successfully
+[2018-09-22T07:53:58.367] [INFO] default - 启动站点 "588ku"
+[2018-09-22T07:53:58.368] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T07:53:58.370] [INFO] default - 启动站点 "nipic"
+[2018-09-22T07:53:58.371] [INFO] default - 启动站点 "58pic"
+[2018-09-22T07:53:58.371] [INFO] default - 启动站点 "90sheji"
+[2018-09-22T07:53:58.372] [INFO] default - 启动站点 "ooopic"
+[2018-09-22T07:53:58.373] [WARN] default - 找不到站点 "88tph"
+[2018-09-22T07:53:58.373] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T07:53:58.373] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T07:53:58.373] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T07:53:58.376] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:58.377] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:58.377] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:58.377] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:58.377] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:58.377] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T07:53:58.377] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:18:39.152] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:18:43.713] [DEBUG] default - taskId = 88
+[2018-09-22T08:18:43.723] [DEBUG] default - 当前任务 "88" 的状态为 "wait"
+[2018-09-22T08:18:43.724] [ERROR] default - 任务 "88" 没有绑定账号
+[2018-09-22T08:18:43.724] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:18:59.166] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:19:03.727] [DEBUG] default - taskId = 88
+[2018-09-22T08:19:03.732] [DEBUG] default - 当前任务 "88" 的状态为 "wait"
+[2018-09-22T08:19:03.732] [ERROR] default - 任务 "88" 没有绑定账号
+[2018-09-22T08:19:03.732] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:19:24.173] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:19:28.736] [DEBUG] default - taskId = 88
+[2018-09-22T08:19:28.741] [DEBUG] default - 当前任务 "88" 的状态为 "wait"
+[2018-09-22T08:19:28.741] [ERROR] default - 任务 "88" 没有绑定账号
+[2018-09-22T08:19:28.741] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:19:50.765] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:19:53.744] [DEBUG] default - taskId = 88
+[2018-09-22T08:19:53.750] [DEBUG] default - 当前任务 "88" 的状态为 "wait"
+[2018-09-22T08:19:53.750] [ERROR] default - 任务 "88" 没有绑定账号
+[2018-09-22T08:19:53.751] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:19:57.044] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:19:58.751] [DEBUG] default - taskId = 88
+[2018-09-22T08:19:58.754] [DEBUG] default - 当前任务 "88" 的状态为 "wait"
+[2018-09-22T08:19:58.755] [ERROR] default - 任务 "88" 没有绑定账号
+[2018-09-22T08:19:58.755] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:20:17.048] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:20:18.757] [DEBUG] default - taskId = 88
+[2018-09-22T08:20:18.764] [DEBUG] default - 当前任务 "88" 的状态为 "wait"
+[2018-09-22T08:20:18.764] [ERROR] default - 任务 "88" 没有绑定账号
+[2018-09-22T08:20:18.765] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:20:37.847] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:20:38.766] [DEBUG] default - taskId = 89
+[2018-09-22T08:20:38.771] [DEBUG] default - 当前任务 "89" 的状态为 "wait"
+[2018-09-22T08:20:38.772] [ERROR] default - 任务 "89" 没有绑定账号
+[2018-09-22T08:20:38.772] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T08:20:57.806] [DEBUG] default - 站点：www.58pic.com
+[2018-09-22T08:20:58.775] [DEBUG] default - taskId = 89
+[2018-09-22T08:20:58.780] [DEBUG] default - 当前任务 "89" 的状态为 "wait"
+[2018-09-22T08:20:58.780] [ERROR] default - 任务 "89" 没有绑定账号
+[2018-09-22T08:20:58.781] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:05:28.063] [INFO] default - service 注入...
+[2018-09-22T10:05:28.072] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T10:05:28.421] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T10:05:29.006] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T10:05:29.461] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T10:05:29.462] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T10:05:29.462] [INFO] default - service 注入完成
+[2018-09-22T10:05:29.463] [INFO] default - controller 注入...
+[2018-09-22T10:05:29.464] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T10:05:29.464] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T10:05:30.253] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T10:05:30.254] [INFO] default - controller 注入完成
+[2018-09-22T10:05:30.713] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T10:05:30.717] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T10:05:30.719] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T10:05:30.722] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T10:05:30.724] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T10:05:30.726] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T10:05:30.729] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T10:05:30.731] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T10:05:30.734] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T10:05:30.736] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T10:05:30.738] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T10:06:26.720] [INFO] default - service 注入...
+[2018-09-22T10:06:26.730] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T10:06:26.861] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T10:06:26.911] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T10:06:27.028] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T10:06:27.029] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T10:06:27.030] [INFO] default - service 注入完成
+[2018-09-22T10:06:27.030] [INFO] default - controller 注入...
+[2018-09-22T10:06:27.031] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T10:06:27.031] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T10:06:27.354] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T10:06:27.355] [INFO] default - controller 注入完成
+[2018-09-22T10:06:27.611] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T10:06:27.615] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T10:06:27.618] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T10:06:27.620] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T10:06:27.623] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T10:06:27.625] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T10:06:27.628] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T10:06:27.631] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T10:06:27.633] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T10:06:27.636] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T10:06:27.639] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T10:06:27.640] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T10:06:27.641] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T10:06:27.641] [INFO] default - started successfully
+[2018-09-22T10:06:31.834] [INFO] default - service 注入...
+[2018-09-22T10:06:31.844] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T10:06:31.988] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T10:06:32.065] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T10:06:32.205] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T10:06:32.206] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T10:06:32.207] [INFO] default - service 注入完成
+[2018-09-22T10:06:32.207] [INFO] default - controller 注入...
+[2018-09-22T10:06:32.208] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T10:06:32.209] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T10:06:32.505] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T10:06:32.506] [INFO] default - controller 注入完成
+[2018-09-22T10:06:32.759] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T10:06:32.763] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T10:06:32.766] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T10:06:32.768] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T10:06:32.771] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T10:06:32.774] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T10:06:32.776] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T10:06:32.779] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T10:06:32.781] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T10:06:32.784] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T10:06:32.786] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T10:06:32.787] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T10:06:32.788] [INFO] default - listen 0.0.0.0:12333
+[2018-09-22T10:06:32.788] [INFO] default - started successfully
+[2018-09-22T10:06:41.480] [INFO] default - service 注入...
+[2018-09-22T10:06:41.493] [DEBUG] default - import: /app/service/api.js
+[2018-09-22T10:06:41.649] [DEBUG] default - import: /app/service/captcha-qq.js
+[2018-09-22T10:06:41.702] [DEBUG] default - import: /app/service/oss.js
+[2018-09-22T10:06:41.805] [DEBUG] default - import: /app/service/time.js
+[2018-09-22T10:06:41.805] [DEBUG] default - import: /app/service/user-agent.js
+[2018-09-22T10:06:41.806] [INFO] default - service 注入完成
+[2018-09-22T10:06:41.806] [INFO] default - controller 注入...
+[2018-09-22T10:06:41.807] [DEBUG] default - import: /app/controller/common.js
+[2018-09-22T10:06:41.808] [DEBUG] default - import: /app/controller/material.js
+[2018-09-22T10:06:42.099] [DEBUG] default - import: /app/controller/site.js
+[2018-09-22T10:06:42.100] [INFO] default - controller 注入完成
+[2018-09-22T10:06:42.597] [DEBUG] default - load 699pic.com account id: 1, username: 365583113, type: qq
+[2018-09-22T10:06:42.602] [DEBUG] default - load 699pic.com account id: 3, username: 2569517236, type: qq
+[2018-09-22T10:06:42.604] [DEBUG] default - load 588ku.com account id: 4, username: 2215380671, type: qq
+[2018-09-22T10:06:42.607] [DEBUG] default - load 588ku.com account id: 5, username: 3223731727, type: qq
+[2018-09-22T10:06:42.610] [DEBUG] default - load www.16pic.com account id: 6, username: 365583113, type: qq
+[2018-09-22T10:06:42.613] [DEBUG] default - load www.51yuansu.com account id: 7, username: 365583113, type: qq
+[2018-09-22T10:06:42.616] [DEBUG] default - load 90sheji.com account id: 9, username: 2215380671, type: qq
+[2018-09-22T10:06:42.618] [DEBUG] default - load 90sheji.com account id: 10, username: 3223731727, type: qq
+[2018-09-22T10:06:42.621] [DEBUG] default - load ibaotu.com account id: 11, username: 2215380671, type: qq
+[2018-09-22T10:06:42.624] [DEBUG] default - load ibaotu.com account id: 12, username: 3223731727, type: qq
+[2018-09-22T10:06:42.627] [DEBUG] default - load www.tukuppt.com account id: 14, username: 3223731727, type: qq
+[2018-09-22T10:06:42.627] [DEBUG] default - 所有账号加载完毕
+[2018-09-22T10:06:42.759] [INFO] default - 启动站点 "699pic"
+[2018-09-22T10:06:42.762] [INFO] default - 启动站点 "588ku"
+[2018-09-22T10:06:42.763] [INFO] default - 启动站点 "ibaotu"
+[2018-09-22T10:06:42.764] [INFO] default - 启动站点 "nipic"
+[2018-09-22T10:06:42.765] [INFO] default - 启动站点 "58pic"
+[2018-09-22T10:06:42.766] [INFO] default - 启动站点 "90sheji"
+[2018-09-22T10:06:42.767] [INFO] default - 启动站点 "ooopic"
+[2018-09-22T10:06:42.768] [INFO] default - 启动站点 "88tph"
+[2018-09-22T10:06:42.768] [WARN] default - 找不到站点 "51yuansu"
+[2018-09-22T10:06:42.769] [WARN] default - 找不到站点 "16pic"
+[2018-09-22T10:06:42.769] [WARN] default - 找不到站点 "tukuppt"
+[2018-09-22T10:06:42.771] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.772] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.772] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.772] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.772] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.773] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.773] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]
+[2018-09-22T10:06:42.773] [DEBUG] default - wait:  [ [ null, [] ], [ null, 0 ] ]

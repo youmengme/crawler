@@ -1,0 +1,4 @@
+# node project material auto start
+source /etc/profile
+cd /home/material/
+./start.sh reload

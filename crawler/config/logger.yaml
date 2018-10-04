@@ -1,0 +1,143 @@
+appenders:
+    console:
+        type: console
+    app:
+        type: file
+        filename: /data/sonorous/shared/var/log/app.log
+        maxLogSize: 10485760
+        numBackups: 3
+    699pic:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/699pic.log
+        maxLogSize: 10485760
+        numBackups: 3
+    588ku:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/588ku.log
+        maxLogSize: 10485760
+        numBackups: 3
+    ibaotu:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/ibaotu.log
+        maxLogSize: 10485760
+        numBackups: 3
+    nipic:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/nipic.log
+        maxLogSize: 10485760
+        numBackups: 3
+    58pic:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/58pic.log
+        maxLogSize: 10485760
+        numBackups: 3
+    90sheji:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/90sheji.log
+        maxLogSize: 10485760
+        numBackups: 3
+    ooopic:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/ooopic.log
+        maxLogSize: 10485760
+        numBackups: 3
+    88tph:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/88tph.log
+        maxLogSize: 10485760
+        numBackups: 3
+    51yuansu:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/51yuansu.log
+        maxLogSize: 10485760
+        numBackups: 3
+    16pic:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/16pic.log
+        maxLogSize: 10485760
+        numBackups: 3
+    tukuppt:
+        type: file
+        filename: /data/sonorous/shared/var/log/site/tukuppt.log
+        maxLogSize: 10485760
+        numBackups: 3
+    db:
+        type: file
+        filename: /data/sonorous/shared/var/log/db.log
+        maxLogSize: 10485760
+        numBackups: 3
+    errorFile:
+        type: file
+        filename: /data/sonorous/shared/var/log/errors.log
+    errors:
+        type: logLevelFilter
+        level: ERROR
+        appender: errorFile
+
+
+categories:
+    default:
+        appenders:
+            - app
+            - errors
+            - console
+        level: DEBUG
+    699pic:
+        appenders:
+            - 699pic
+            - console
+        level: DEBUG
+    588ku:
+        appenders:
+            - 588ku
+            - console
+        level: DEBUG
+    ibaotu:
+        appenders:
+            - ibaotu
+            - console
+        level: DEBUG
+    nipic:
+        appenders:
+            - nipic
+            - console
+        level: DEBUG
+    58pic:
+        appenders:
+            - 58pic
+            - console
+        level: DEBUG
+    90sheji:
+        appenders:
+            - 90sheji
+            - console
+        level: DEBUG
+    ooopic:
+        appenders:
+            - ooopic
+            - console
+        level: DEBUG
+    88tph:
+        appenders:
+            - 88tph
+            - console
+        level: DEBUG
+    51yuansu:
+        appenders:
+            - 51yuansu
+            - console
+        level: DEBUG
+    16pic:
+        appenders:
+            - 16pic
+            - console
+        level: DEBUG
+    tukuppt:
+        appenders:
+            - tukuppt
+            - console
+        level: DEBUG
+    db:
+        appenders:
+            - db
+        level: DEBUG

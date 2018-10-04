@@ -1,0 +1,25 @@
+http:
+    hostname: 0.0.0.0
+    #hostname: 127.0.0.1
+    port: 12333
+
+redis: redis://10.47.105.170:6379
+mysql: mysql://sonorous:ktN^uYiq2iebVsrEefaca@10.47.105.170:3306/sonorous
+
+workip: 10.47.105.170
+apikey: 67280552dd9f0a53389ce2fca801cf42
+storageDir: !path var
+downloadDir: /data/sonorous/shared/var/download
+
+browser:
+    executablePath: /usr/local/chrome/chrome
+    headless: true
+    devtools: false
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+
+oss:
+    region: oss-cn-hangzhou-internal
+    accessKeyId: LTAIsn7KdGONfsZB
+    accessKeySecret: CSj7o1wxOYSxPOoFmT8xjSZXT7pdVO
+    bucket: downdb2
+
