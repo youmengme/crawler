@@ -2,10 +2,11 @@
 const site_base_1 = require("../site-base");
 const log4js_1 = require("log4js");
 const _ = require("lodash");
-const requestlib = require("request");
-const cookielib = require("cookie");
-const moment = require("moment");
 const errors_1 = require("../errors");
+const urllib = require("url");
+const qs = require("qs");
+const requestlib = require("request");
+const ibaotu_captcha_1 = require("../../model/ibaotu-captcha");
 const log = log4js_1.getLogger('ibaotu');
 module.exports = class SiteIbaotu extends site_base_1.default {
     constructor(a, url) {
@@ -34,12 +35,7 @@ module.exports = class SiteIbaotu extends site_base_1.default {
     async isLogin() {
         return this.page.evaluate(function () {
             // @ts-ignore
-            if (!isLogin) {
-                return false;
-            }
-            const $node = $('.download-wrap a.down-btn');
-            const att = $node.attr('onclick');
-            return att && att.indexOf('_reg') >= 0;
+            return !!isLogin;
         });
     }
     get qqLoginCallbackPattern() {
@@ -113,12 +109,11 @@ module.exports = class SiteIbaotu extends site_base_1.default {
             baseMeta.extra = {};
         }
         let downloadPageUrl = await this.page.evaluate(() => {
-            const $node = document.querySelector('.download-wrap a.down-btn');
-            if (!$node) {
+            var node = document.querySelector('.download-wrap a.down-btn');
+            if (!node)
                 return null;
-            }
             // @ts-ignore
-            return $node.href;
+            return node.href;
         }).catch(this.log.error);
         if (!downloadPageUrl) {
             throw new errors_1.CrawlerError('没有获取到下载页面按钮');
@@ -134,57 +129,136 @@ module.exports = class SiteIbaotu extends site_base_1.default {
         }).catch((err) => {
             this.log.error(err);
         });
-        const downloadRequestUrl = await this.page.evaluate(function () {
-            const $a = $('#downvip');
-            if ($a.is('a')) {
-                // @ts-ignore
-                return $a[0].href;
+        this.log.debug('开启拦截');
+        await this.page.setRequestInterception(true);
+        this.page.on('request', (req) => {
+            const pattern = /http:\/\/proxy-[^.]+\.ibaotu.com\/[^.]+\.[^?]+/;
+            if (pattern.test(req.url())) {
+                this.log.debug(`拦截到下载地址：${req.url()}`);
+                // req.abort().catch(this.log.error);  // 不拒绝，外部再去捕获
             }
-            return null;
+            else {
+                req.continue().catch((err) => {
+                    this.log.error(err);
+                });
+            }
         });
-        if (!downloadRequestUrl) {
+        this.page.waitForResponse(res => {
+            const parse = urllib.parse(res.url());
+            const query = qs.parse(parse.query || '');
+            return query.m === 'downVarify';
+        }).then(async (res) => {
+            this.log.info('开始识别验证码');
+            await this.page.waitForNavigation({
+                waitUntil: 'networkidle2'
+            });
+            const captcha = await this.page.evaluate(() => {
+                const tips = $('.tips span').text().trim();
+                const arr = [];
+                for (const img of $('.imgs-wrap img').toArray()) {
+                    // @ts-ignore
+                    arr.push(img.src);
+                }
+                return {
+                    text: tips,
+                    list: arr
+                };
+            });
+            this.log.debug('captcha=', JSON.stringify(captcha));
+            if (captcha.text && captcha.list.length > 0) {
+                const ibaotuCaptcha = await ibaotu_captcha_1.default.findOneByText(captcha.text);
+                if (!ibaotuCaptcha) {
+                    this.log.warn('无法识别的文字，准备添加新样本');
+                    const promises = [];
+                    for (const url of captcha.list) {
+                        const parse = urllib.parse(url);
+                        const query = qs.parse(parse.query || '');
+                        if (!query || !query.k) {
+                            log.warn(`bad ibaotu sample "${url}"`);
+                            continue;
+                        }
+                        const hash = query.k;
+                        const record = await ibaotu_captcha_1.default.findOneByHash(hash);
+                        if (record) {
+                            log.debug(`已经存在的样本 "${hash}"`);
+                            continue;
+                        }
+                        promises.push(new Promise((resolve, reject) => {
+                            requestlib({
+                                uri: url,
+                                method: 'get',
+                                headers: {
+                                    'user-agent': this.account.user_agent || this.defaultUserAgent,
+                                    'referer': this.page.url()
+                                }
+                            }, (error, response, body) => {
+                                if (error) {
+                                    reject(error);
+                                    return;
+                                }
+                                if (typeof body === 'string') {
+                                    body = Buffer.from(body);
+                                }
+                                ibaotu_captcha_1.default.create({
+                                    hash: hash,
+                                    data: body.toString('base64')
+                                }).then(() => {
+                                    this.log.debug(`添加新样本 "${hash}"`);
+                                }).catch(e => {
+                                    this.log.error('添加新样本出错', e);
+                                });
+                                resolve();
+                            });
+                        }));
+                    }
+                }
+                else {
+                    this.log.info(`识别出验证码 [${ibaotuCaptcha.text}]`);
+                    let resultIndex = -1;
+                    for (const [index, url] of captcha.list.entries()) {
+                        const parse = urllib.parse(url);
+                        const query = qs.parse(parse.query || '');
+                        this.log.debug(`compare hash=${ibaotuCaptcha.hash}, query=${parse.query}`);
+                        if (query.k === ibaotuCaptcha.hash) {
+                            resultIndex = index;
+                            break;
+                        }
+                    }
+                    this.log.debug(`找到验证码按钮位置 "${resultIndex}"`);
+                    if (resultIndex >= 0) {
+                        await this.page.evaluate((index) => {
+                            const $el = $('.imgs-wrap img').eq(index);
+                            if ($el[0]) {
+                                $el[0].click();
+                            }
+                        }, resultIndex);
+                        await this.page.waitForNavigation({
+                            waitUntil: 'networkidle2'
+                        }).catch(e => {
+                            this.log.error(e);
+                        });
+                        this.page.click('#downvip').catch(() => { });
+                    }
+                }
+            }
+        }).catch(() => {
+        });
+        this.page.click('#downvip').catch(() => { });
+        const request = await this.page.waitForRequest((req) => {
+            const pattern = /http:\/\/proxy-[^.]+\.ibaotu.com\/[^.]+\.[^?]+/;
+            return pattern.test(req.url());
+        }, { timeout: 20000 }).catch((err) => {
+            this.log.error('拦截下载地址超时。', err);
+        });
+        if (!request) {
+            this.log.debug(this.page.url());
+            await this.page.waitFor(999999999);
             throw new errors_1.CrawlerError('没有获取到下载地址');
         }
-        let cookies = await this.page.cookies();
-        let j = requestlib.jar();
-        for (const v of cookies) {
-            let s = cookielib.serialize(v.name, v.value, {
-                domain: v.domain,
-                expires: v.expires >= 0 ? moment.unix(v.expires).toDate() : undefined,
-                httpOnly: v.httpOnly,
-                path: v.path,
-                secure: v.secure,
-                encode: s => s
-            });
-            j.setCookie(requestlib.cookie(s), 'https://ibaotu.com/');
-        }
-        let downloadUrl;
-        try {
-            downloadUrl = await new Promise((resolve, reject) => {
-                this.log.info('从跳转获取下载地址：', downloadRequestUrl);
-                try {
-                    requestlib({
-                        url: downloadRequestUrl,
-                        jar: j,
-                        strictSSL: false,
-                        followRedirect: false,
-                        headers: {
-                            'User-Agent': this.account.user_agent || this.defaultUserAgent
-                        }
-                    }, (res, rep) => {
-                        resolve(rep.headers.location);
-                    });
-                }
-                catch (e) {
-                    reject(e);
-                }
-            });
-        }
-        catch (e) {
-            this.log.error(e);
-            throw new errors_1.CrawlerError('请求下载地址错误');
-        }
-        this.log.info('下载地址为：', downloadUrl);
+        const downloadUrl = request.url();
+        request.abort().catch((err) => {
+            this.log.error(err);
+        });
         const meta = _.cloneDeep(baseMeta);
         const result = await this.getResult(downloadUrl, meta);
         if (!result.result) {

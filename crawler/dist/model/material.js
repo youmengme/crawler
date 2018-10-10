@@ -171,13 +171,7 @@ __decorate([
 ], Material.prototype, "account", void 0);
 Material = __decorate([
     sequelize_typescript_1.Table({
-        tableName: 'material',
-        indexes: [
-            {
-                fields: ['site_id', 'item_id'],
-                unique: true
-            }
-        ]
+        tableName: 'material'
     })
 ], Material);
 exports.default = Material;

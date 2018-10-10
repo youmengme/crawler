@@ -218,7 +218,7 @@ class SiteBase {
         let loginResponse = null;
         const responseHandler = (res) => {
             this.log.debug(`on res: [${res.status()}] ${res.url()}`);
-            if (!loginResponse && res.url().indexOf('https://ssl.ptlogin2.qq.com/login?') >= 0) {
+            if (res.url().indexOf('https://ssl.ptlogin2.qq.com/login?') >= 0) {
                 loginResponse = res;
                 this.log.info('发现请求：https://ssl.ptlogin2.qq.com/login');
             }

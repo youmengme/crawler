@@ -103,7 +103,7 @@ class MaterialController {
             if (accountId > 0) {
                 await redis_1.redis.zadd(redisKey, _.toInteger(+new Date / 1000) + '', accountId + '');
             }
-            log.error(e, JSON.stringify(material.output()));
+            log.error(e);
             return common_1.response(ctx, constant_1.RET_CODE_DB_ERROR, '素材创建失败');
         }
         const key = util_1.format(constant_1.REDIS_KEY_MATERIAL_QUEUE, site.id, workip);

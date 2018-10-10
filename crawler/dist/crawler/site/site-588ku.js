@@ -122,6 +122,7 @@ module.exports = class Site588ku extends site_base_1.default {
             baseMeta.extra = {};
         }
         const isDownloadRequest = (req) => {
+            this.log.debug(`request [${req.method()}] ${req.url()}`);
             const parse = urllib.parse(req.url());
             const query = qs.parse(parse.query || '');
             const a = ['downpsd', 'down'];
@@ -146,11 +147,18 @@ module.exports = class Site588ku extends site_base_1.default {
                 return $nodes.is('a') ? $nodes[0].href : null;
             });
             if (downloadPageUrl !== null) {
-                this.log.info('黄色按钮的下载页面');
-                await this.page.goto(downloadPageUrl, {
-                    referer: this.page.url()
-                });
-                $nodes = await this.page.$$('.download-file');
+                this.log.info('黄色按钮的下载页面：', downloadPageUrl);
+                if (downloadPageUrl.startsWith('http')) {
+                    await this.page.goto(downloadPageUrl, {
+                        referer: this.page.url()
+                    }).catch(e => {
+                        this.log.error('跳转到下载页面出错');
+                    });
+                    $nodes = await this.page.$$('.download-file');
+                }
+                else {
+                    $nodes = await this.page.$$('.info-r-box a.download-y');
+                }
             }
         }
         if ($nodes.length === 0) {
@@ -177,10 +185,12 @@ module.exports = class Site588ku extends site_base_1.default {
                 this.log.debug(`[wait request ${req.method()}] ${req.url()}`);
                 return isDownloadRequest(req);
             }, {
-                timeout: 6000
-            }).catch(e => {
+                timeout: 8000
+            }).catch(async (e) => {
+                await this.page.waitFor(99999999);
                 this.log.error('拦截下载请求超时：', e);
             });
+            this.log.debug('click');
             $node.click().catch(e => {
                 this.log.error(e);
             });
